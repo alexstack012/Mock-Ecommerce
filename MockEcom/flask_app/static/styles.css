@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.container-fluid{
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    position: relative;
+    width: 50%;
+}
+
+.mainImg {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: transparent;
+}
+
+.container:hover .overlay {
+    opacity: 1;
+}
+
+.text {
+    top: 10px;
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    top: 7%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.mainContent{
+    position: relative;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.whyImg{
+    width: 100%;
+
+}
+
+.imgText{
+    margin-top: 100px;
+    position: absolute;
+    top: 5px;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.whyP{
+    width: 77%;
+    padding: 5%;
+}
+
+.contactImgText{
+    margin-top: 100px;
+    position: absolute;
+    top: 118px;
+    left: 72px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.proRight{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 86px;
+    margin-top: -3px;
+    margin-bottom: 10px;
+}
+
+.proLeft{
+    width: 45%;
+}
+
+iframe{
+    margin-left: 75%;
+}
+
